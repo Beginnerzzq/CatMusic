@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/video/video",
+    "pages/personal/personal",
+    "pages/recommendSong/recommendSong",
+    "pages/songDetail/songDetail",
+    "pages/login/login",
+    "pages/search/search"
+  ],
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "window": {
+    "navigationBarBackgroundColor": "#66ccff",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "喵呜音乐"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/static/images/tabs/tab-home.png",
+        "selectedIconPath": "/static/images/tabs/tab-home-click.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频",
+        "iconPath": "/static/images/tabs/tab-video.png",
+        "selectedIconPath": "/static/images/tabs/tab-video-click.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心",
+        "iconPath": "/static/images/tabs/tab-personal.png",
+        "selectedIconPath": "/static/images/tabs/tab-personal-click.png"
+      }
+    ]
+  }
+}
